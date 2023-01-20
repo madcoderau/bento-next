@@ -54,14 +54,14 @@ const CONFIG = {
   bentoLayout: "bento", // 'bento', 'lists', 'buttons'
 
   // Weather
-  weatherKey: "YourOpenWeatherMapAPIKey", // Write here your API Key
+  weatherKey: "2d9e0a831532830fd07483fb8150f38d", // Write here your API Key
   weatherIcons: "OneDark", // 'Onedark', 'Nord', 'Dark', 'White'
   weatherUnit: "C", // 'F', 'C'
   language: "en", // More languages in https://openweathermap.org/current#multi
 
-  trackLocation: true, // Request location from the browser. If false, or location is denied, use the coordinates below.
-  defaultLatitude: "37.775",
-  defaultLongitude: "-122.419",
+  trackLocation: false, // Request location from the browser. If false, or location is denied, use the coordinates below.
+  defaultLatitude: "-27.5611",
+  defaultLongitude: "152.2755",
 
   // Autochange theme from OS preferece - The below options are all mutually exclusive. If you've got multiple set to true, the first one will be set and the rest ignored.
   changeThemeByOS: false,
@@ -90,13 +90,13 @@ const CONFIG = {
       id: "2",
       name: "Mail",
       icon: "envelope",
-      link: "https://mail.protonmail.com/"
+      link: "https://webmail.eq.edu.au"
     },
     {
       id: "3",
-      name: "Todoist",
+      name: "Calculator",
       icon: "list-ol",
-      link: "https://todoist.com"
+      link: "https://www.desmos.com/calculator"
     },
     {
       id: "4",
@@ -112,9 +112,9 @@ const CONFIG = {
     },
     {
       id: "6",
-      name: "Odysee",
+      name: "UTube",
       icon: "fab-youtube",
-      link: "https://odysee.com/"
+      link: "https://youtube.com/"
     }
   ],
 
@@ -141,7 +141,7 @@ const CONFIG = {
       id: "4",
       name: "Amazon",
       icon: "fab-amazon",
-      link: "https://amazon.com/"
+      link: "https://amazon.com.au/"
     },
     {
       id: "5",
